@@ -19,7 +19,7 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('CoverImage.jpg'); 
+  background-image: url('https://raw.githubusercontent.com/JF21/JF21.github.io/master/CoverImage.JPG'); 
   height: 100%;
   -webkit-background-size: cover;
      -moz-background-size: cover;
