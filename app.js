@@ -31,6 +31,12 @@ var main = function() {
 }, 500);
    
   });
+
+  $('.nav-tabs').click(function(){
+    $('.active').removeClass('.active');
+   // $(this).addClass('.active');
+    //$("<p>").text("AddedClick").appendTo('')
+  });
 };
 
 

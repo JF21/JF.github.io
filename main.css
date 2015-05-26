@@ -2,7 +2,7 @@
 body {
   left: 0;
   margin: 0;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
 }
 
@@ -19,18 +19,24 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
+  background-image: url('CoverImage.jpg'); 
   height: 100%;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
 }
 
 .menu ul {
   border-top: 1px solid #636366;
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
@@ -52,6 +58,7 @@ body {
 }
 
 .icon-menu {
+  background: black;
   color: #fff;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
@@ -59,10 +66,51 @@ body {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-top: 10px;
+  margin: 0 0 0 -100;
   text-decoration: none;
-  text-transform: uppercase;
+  float: left;
+}
+
+.homepage h1{
+clear:both;
+text-align: center;
+color:#101010;
+padding: 0;
+margin: 0;
+}
+
+.homepage button{
+  position: relative;
+  left: 50%;
+  margin-left: -20px;
+  padding: 15px 15px;
+}
+
+
+.well p{
+  text-indent: 50px;
+  padding: 0 50px 10px 50px;
+  font-family: verdana;
+  font-size: 18;
+  font-weight: bold;
+}
+
+.well{
+  clear:both;
+  margin: 0;
+  padding: 0;
 }
 
 .icon-menu i {
   margin-right: 5px;
+}
+
+.glyphicon.glyphicon-user{
+  font-size: 100;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#projects{
+  background: #98D3D6;
 }

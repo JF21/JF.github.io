@@ -1,5 +1,14 @@
 <html>
 <head>
+    
+    <title>Justin Fu</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
     <link href='main.css' rel='stylesheet'>
@@ -11,21 +20,57 @@
 
       <!-- Menu -->
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#aboutme">About</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#">Resume</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
 
-    <!-- Main body -->
     <div class="jumbotron">
+     <div class="container">
+        <div class="icon-menu">
+          <i class="fa fa-bars"></i>
+          Find Out More About Me!  
+          <i class="glyphicon glyphicon-arrow-up"></i>
+        </div>
+        
+          <div class="homepage">
+          <h1>Hey! This is Justin.</h1>
+          <a href="#aboutme"><button type="button" class="btn btn-success btn-lg">More  <i class="glyphicon glyphicon-arrow-down"></i></button></a>
+         
+        </div>
 
-      <div class="icon-menu">
-        <i class="fa fa-bars"></i>
-        Justin Fu
       </div>
-    
+    </div>
+
+      <div id="aboutme" class="well">
+        <div class="row">
+          <div class="col-md-2">
+            <i class="glyphicon glyphicon-user"></i>
+          </div>
+          <div class="col-md-10">
+            <h1>About</h1>
+            <p>
+            I like coding, electronics, and flight. And I don't mind getting hands on in the physical world as well. Next year I will be further developing these interests and others at the University of Michigan. As of now, I've had a great time gaining experience in computer science, robotics, and engineering both at my highschool and outside.
+            </p>
+            <p>
+              Projects are my focus. Classes and theory are nice and all, but you can't really see progress until you've applied them. Although I have been involved in a few interesting projects, I hope that the best of what I do is still to come. 
+            </p>
+          </div>
+       </div>
+      </div>
+
+         <div id="projects" class="intro">
+
+          <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#intro">Home</a></li>
+  <li role="presentation"><a href="#intro">Profile</a></li>
+  <li role="presentation"><a href="#intro">Messages</a></li>
+          </ul>
+
+        </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="app.js"></script>
   </body>
