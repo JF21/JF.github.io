@@ -159,3 +159,28 @@ margin: 0;
 #projectLineTwo{
   clear: both;
 }
+
+#contact{
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  margin 0;
+}
+
+#contact h2{
+  margin: 0;
+  font: verdana;
+  color: #FDF5E6;
+  padding: 10px 0 10px 10px;
+}
+
+#contact p{
+  margin: 0;
+  font: verdana;
+  color: #FDF5E6;
+  margin: 0;
+  padding-top: 5px;
+}
+
+#contact button{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
