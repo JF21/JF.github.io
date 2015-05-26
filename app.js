@@ -32,11 +32,6 @@ var main = function() {
    
   });
 
-  $('.nav-tabs').click(function(){
-    $('.active').removeClass('.active');
-   // $(this).addClass('.active');
-    //$("<p>").text("AddedClick").appendTo('')
-  });
 };
 
 
